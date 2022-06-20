@@ -1,0 +1,146 @@
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* justify-content: center;
+  bottom: 25rem;
+  padding-bottom: 10rem;
+  /* width: 40rem; */
+}
+.btn {
+  margin: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid white;
+  background: rgb(0 255 255 / 10%);
+  color: var(--color-primary);
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  transition: 0.3s;
+  font-size: 1.4rem;
+  font-family: var(--font-family-secondary);
+  font-weight: bold;
+}
+
+.btn-center {
+  display: flex;
+  position: relative;
+  top: 45rem;
+  /* /* z-index: 5; */
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(184, 255, 249);
+  cursor: pointer;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-11rem);
+    transform: translateY(-11rem);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-11rem);
+    transform: translateY(-11rem);
+  }
+}
+
+h1 {
+  color: var(--color-primary);
+  font-size: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+.main-text {
+  position: absolute;
+  top: 10rem;
+  -webkit-animation: focus-in-contract-bck 1s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(30rem);
+    transform: translateZ(30rem);
+    -webkit-filter: blur(1.2rem);
+    filter: blur(1.2rem);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(1.2rem);
+    transform: translateZ(1.2rem);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(30rem);
+    transform: translateZ(30rem);
+    -webkit-filter: blur(1.2rem);
+    filter: blur(1.2rem);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(1.2rem);
+    transform: translateZ(1.2rem);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.motto {
+  color: var(--color-primary);
+  font-size: 2rem;
+  top: 25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .motto {
+    font-size: 1.5rem;
+  }
+}
+
+.bg-image {
+  background-image: url("../../assets/background-image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* z-index: -10; */
+}
+
+.homeContainer {
+  height: 93vh;
+}
+
+.hero-btn {
+  position: absolute;
+}
