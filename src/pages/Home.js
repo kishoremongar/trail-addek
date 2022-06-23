@@ -1,9 +1,11 @@
 import React from "react";
-import Hero from "../components/Hero/Hero";
+import Hero from "../components/Home/Hero";
+import Slider from "../components/Home/Slider";
 
 const Home = () => {
   return (
-    <main className="homeContainer bg-image">
+    <main className="homeContainer">
+      <Slider />
       <Hero />
     </main>
   );

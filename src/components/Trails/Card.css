@@ -3,31 +3,39 @@
   box-shadow: 1px 1px 10px -5px;
   transition: 0.3s;
   animation: ease-in;
-  margin: 1rem;
+  margin-bottom: 5rem;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: var(--font-family-secondary);
+  height: 40rem;
+  width: 30rem;
 }
 
 .card-container:hover {
   transform: scale(1.05);
   box-shadow: 0px 5px 10px 0px;
+  cursor: pointer;
 }
 .card-header {
-  width: 20rem;
+  width: 30rem;
 }
 .card-header img {
   overflow: hidden;
-  height: 15rem;
+  height: 30rem;
+  width: 30rem;
+  object-fit: cover;
 }
 
 .card-info {
-  margin: 1.5rem 1.5rem 0rem 1.5rem;
-  margin-top: 0.5rem;
-  text-align: left;
+  height: 10rem;
+  width: 30rem;
+  margin-left: 2rem;
+}
+.card-info h4 {
+  font-weight: 1200;
 }
 
 h3,
@@ -61,11 +69,21 @@ p {
   display: flex;
   position: relative;
   justify-content: center;
+  margin: 5rem;
+  margin-left: 9rem;
 }
-
+.cardLayout {
+  width: 100%;
+}
 .cardLayout > * {
+  display: grid;
+  grid-template: auto/ repeat(auto-fit, minmax(32.5rem, 1fr));
+  /* grid-template: auto/ repeat(4, 1fr); */
+  /* grid-gap: 2rem; */
+}
+/* .cardLayout > * {
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
   justify-content: center;
-}
+} */
