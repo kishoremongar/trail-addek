@@ -1,4 +1,4 @@
-root {
+:root {
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-white: #fff;
   --transition: all 0.3s linear;
@@ -51,9 +51,11 @@ root {
 }
 .prev {
   left: 0;
+  color: var(--color-primary);
 }
 .next {
   right: 0;
+  color: var(--color-primary);
 }
 /* @media (min-width: 800px) {
   .prev,
@@ -80,4 +82,13 @@ article.lastSlide {
 }
 article.nextSlide {
   transform: translateX(100%);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

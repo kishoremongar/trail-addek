@@ -2,7 +2,7 @@ const CardData = [
   {
     id: 1,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1653818572/Trail%20Addek%20Slides/PSX_20191225_171616_mvwgd3.jpg",
-    place: "Sandhakphu",
+    place: "Sandhakphu, Singalila N. Park",
     level: "Moderate",
     time: "4 Days",
     price: "3000",
@@ -10,7 +10,7 @@ const CardData = [
   {
     id: 2,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1654791402/Trail%20Addek%20Slides/PSX_20191225_205212_ssxzdz.jpg",
-    place: "Phalut",
+    place: "Phalut, Singalila National Park",
     level: "Hard",
     time: "7 Days",
     price: "5151",
@@ -18,7 +18,7 @@ const CardData = [
   {
     id: 3,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1653818587/Trail%20Addek%20Slides/PSX_20191225_205952_i1rljc.jpg",
-    place: "Lepchakha",
+    place: "Lepchakha, Alipurduar",
     level: "Easy",
     time: "1 Day",
     price: "2522",
@@ -26,7 +26,7 @@ const CardData = [
   {
     id: 4,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1652717977/samples/landscapes/nature-mountains.jpg",
-    place: "Lepchakha",
+    place: "Sillery Gaon, Pedong",
     level: "Easy",
     time: "1 Day",
     price: "2522",
@@ -42,7 +42,7 @@ const CardData = [
   {
     id: 6,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1652717968/samples/landscapes/architecture-signs.jpg",
-    place: "Lepchakha",
+    place: "Kolakham, Kalimpong",
     level: "Easy",
     time: "1 Day",
     price: "2522",
@@ -50,7 +50,7 @@ const CardData = [
   {
     id: 7,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1652717963/samples/landscapes/girl-urban-view.jpg",
-    place: "Lepchakha",
+    place: "Neora Valley, Kalimpong",
     level: "Easy",
     time: "1 Day",
     price: "2522",
@@ -58,7 +58,7 @@ const CardData = [
   {
     id: 8,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1652717969/samples/people/bicycle.jpg",
-    place: "Lepchakha",
+    place: "Tinchuley, Takdah",
     level: "Easy",
     time: "1 Day",
     price: "2522",
@@ -66,7 +66,7 @@ const CardData = [
   {
     id: 9,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1652717966/samples/people/jazz.jpg",
-    place: "Lepchakha",
+    place: "Rupang Valley, Santalabari",
     level: "Easy",
     time: "1 Day",
     price: "2522",
@@ -74,7 +74,7 @@ const CardData = [
   {
     id: 10,
     img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1652717965/samples/people/boy-snow-hoodie.jpg",
-    place: "Lepchakha",
+    place: "Bamunpukhuri, Garidhura",
     level: "Easy",
     time: "1 Day",
     price: "2522",
