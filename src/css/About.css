@@ -1,1 +1,62 @@
+.container {
+  display: flex;
+  margin: 10rem;
+  margin-top: 10rem;
+}
 
+.title-aboutUs,
+.about-info {
+  display: flex;
+  font-family: var(--font-family-secondary);
+  font-weight: 800;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: left;
+}
+
+.title-aboutUs {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.right-aboutUs {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.left-aboutUs {
+  display: flex;
+  flex: 1;
+  height: 40rem;
+}
+.about-img {
+  width: 100%;
+  height: auto;
+}
+
+/*Big-Desktop width < 1800px, 1rem = 112px*/
+@media (max-width: 112.5em) {
+}
+/*Tablet-Landscape width < 1200px, 1rem = 9px*/
+@media (max-width: 75em) {
+}
+/*Tablet-Port width < 900px, 1rem = 8px*/
+@media (max-width: 56.25em) {
+  .about-img {
+    width: 30rem;
+  }
+  .container {
+    margin: 0rem;
+    margin-top: 5rem;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+}
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+}
+/*Phone-Small width < 390px, 1rem = 4px*/
+@media (max-width: 24.375em) {
+}
