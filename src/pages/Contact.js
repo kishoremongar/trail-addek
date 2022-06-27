@@ -1,18 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/About.css";
+import ContactImg from "./ContactImg.svg";
 
 const About = () => {
+  const [sent, setSent] = useState(false);
   return (
-    <section className="section about-section">
-      <h1 className="section-title">about us</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, sed
-        accusantium deserunt dolor officia autem rem quo natus, ducimus
-        asperiores obcaecati, voluptatibus accusamus. Sit aspernatur assumenda
-        voluptatum ipsa beatae ducimus unde pariatur numquam optio perspiciatis
-        eum tempora quisquam, dolore qui!
-      </p>
-    </section>
+    <div className="contact-container">
+      <div className="form-left">
+        <section className="main-hero">
+          <img src={ContactImg} alt="Contact" />
+        </section>
+      </div>
+      <section className="form-right">
+        <div className="contact-header">
+          <span>Contact Me</span>
+        </div>
+
+        <form>
+          <input
+            type="text"
+            name="userName"
+            className="user"
+            placeholder="Full Name"
+          />
+          <input
+            type="email"
+            name="userEmail"
+            className="user"
+            placeholder="Email"
+          />
+          <textarea name="message" className="user" placeholder="Message" />
+          <input type="submit" value="Send" className="submitBtn" />
+          <span style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
+            {sent && "Message Sent!"}
+          </span>
+        </form>
+      </section>
+    </div>
   );
 };
 
