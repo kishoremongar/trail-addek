@@ -6,6 +6,7 @@ const CardData = [
     level: "Moderate",
     time: "4 Days",
     price: "3000",
+    cart: "View More",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const CardData = [
     level: "Hard",
     time: "7 Days",
     price: "5151",
+    cart: "View More",
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ const CardData = [
     level: "Easy",
     time: "1 Day",
     price: "2522",
+    cart: "View More",
   },
 ];
 

@@ -2,7 +2,7 @@ import React from "react";
 import CardData from "./CardData";
 import "./Card.css";
 
-const Card = ({ id, img, place, level, time, price }) => {
+const Card = ({ cart, img, place, level, time, price }) => {
   return (
     <div className="card-container">
       <div className="card-header">
@@ -20,6 +20,9 @@ const Card = ({ id, img, place, level, time, price }) => {
         </div>
         <div className="card-price">
           <h4>{price}</h4>
+        </div>
+        <div className="cart">
+          <h4>{cart}</h4>
         </div>
       </div>
     </div>

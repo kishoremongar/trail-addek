@@ -17,6 +17,7 @@ const CardList = () => {
                 level={CardData.level}
                 time={CardData.time}
                 price={CardData.price}
+                cart={CardData.cart}
               />
             );
           })}

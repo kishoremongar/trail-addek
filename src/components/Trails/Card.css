@@ -49,7 +49,6 @@ p {
 
 .card-title h3 {
   font-size: 2rem;
-  margin-bottom: 0.5rem;
 }
 
 .card-footer {
@@ -87,3 +86,7 @@ p {
   gap: 1rem;
   justify-content: center;
 } */
+
+.cart {
+  color: blue;
+}
