@@ -68,17 +68,18 @@ p {
   display: flex;
   position: relative;
   justify-content: center;
-  margin: 5rem;
-  margin-left: 9rem;
+  margin-top: 5rem;
 }
 .cardLayout {
   width: 100%;
 }
 .cardLayout > * {
   display: grid;
-  grid-template: auto/ repeat(auto-fit, minmax(32.5rem, 1fr));
-  /* grid-template: auto/ repeat(4, 1fr); */
-  /* grid-gap: 2rem; */
+  grid-template: auto/ repeat(auto-fit, minmax(32.5rem, 0fr));
+  gap: 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  /* grid-template: auto/ repeat(auto-fit, minmax(32.5rem, 1fr)); */
 }
 /* .cardLayout > * {
   display: flex;
