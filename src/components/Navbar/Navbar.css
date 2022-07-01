@@ -56,7 +56,8 @@
   transition: var(--mainTransition);
 }
 .nav-links a:hover {
-  color: rgb(156, 177, 255);
+  color: var(--border-bottom);
+  border-bottom: 1px solid var(--border-bottom);
 }
 
 .links-container {
