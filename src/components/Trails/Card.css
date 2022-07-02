@@ -69,6 +69,7 @@ p {
   position: relative;
   justify-content: center;
   margin-top: 5rem;
+  flex-direction: column;
 }
 .cardLayout {
   width: 100%;

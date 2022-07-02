@@ -17,6 +17,9 @@ const About = () => {
           voluptatum ipsa beatae ducimus unde pariatur numquam optio
           perspiciatis eum tempora quisquam, dolore qui!
         </p>
+        <p className="about-info">
+          Photos Clicked By Abner &copy; {new Date().getFullYear()}
+        </p>
       </div>
     </section>
   );

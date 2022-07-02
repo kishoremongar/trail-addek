@@ -25,6 +25,9 @@
   justify-content: space-between;
   padding: 1rem;
 }
+.nav-header:hover {
+  transform: scale(1.1);
+}
 .nav-toggle {
   font-size: 1.5rem;
   color: var(--clr-primary-5);
@@ -64,6 +67,7 @@
   height: 0;
   overflow: hidden;
   transition: var(--transition);
+  margin-right: -7rem;
 }
 .show-container {
   height: 10rem;
@@ -108,6 +112,7 @@
 
 .btn-nav:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 60em) {
@@ -138,5 +143,11 @@
   }
   .logo {
     display: flex;
+  }
+}
+/*Phone-Large width < 600px, 1rem = 6.5px*/
+@media (max-width: 37.5em) {
+  .links-container {
+    margin-right: 0;
   }
 }

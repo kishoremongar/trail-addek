@@ -18,7 +18,7 @@ const Navbar = () => {
     if (showLinks) {
       linksContainerRef.current.style.height = `${linksHeight}px`;
     } else {
-      linksContainerRef.current.style.height = "0px";
+      linksContainerRef.current.style.height = "0rem";
     }
   }, [showLinks]);
   return (
