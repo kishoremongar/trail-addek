@@ -1,25 +1,19 @@
 import React from "react";
 import "./FilterSearch.css";
 import CardData from "./CardData";
+import { useState } from "react";
 
 const FilterSearch = ({ filterLevels, allLevel }) => {
   return (
     <div className="searchBar-container">
-      <form className="searchBar">
-        <div className="label-searchBar">
-          <label for="name">
-            <input
-              type="search"
-              className="form-input"
-              placeholder="Search Here"
-            />
-          </label>
-        </div>
-      </form>
       <section className="level">
-        {allLevel.map((curElem) => {
+        {allLevel.map((curElem, index) => {
           return (
-            <button className="cateAll" onClick={() => filterLevels(curElem)}>
+            <button
+              className="cateAll"
+              onClick={() => filterLevels(curElem)}
+              key={index}
+            >
               {curElem}
             </button>
           );

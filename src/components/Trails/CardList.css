@@ -1,0 +1,18 @@
+.searchBar-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.clear-search {
+  font-family: sans-serif;
+  color: gray;
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+}
+
+.clear-search:hover {
+  color: black;
+  cursor: pointer;
+}
