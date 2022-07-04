@@ -1,7 +1,5 @@
 import React from "react";
 import "./FilterSearch.css";
-import CardData from "./CardData";
-import { useState } from "react";
 
 const FilterSearch = ({ filterLevels, allLevel }) => {
   return (

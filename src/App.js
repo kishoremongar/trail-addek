@@ -7,12 +7,12 @@ import Trails from "./pages/Trails";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
-import Navbar from "./components/Navbar/Navbar";
+import Navbarr from "./components/Navbar/Navbarr";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbarr />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
