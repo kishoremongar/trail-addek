@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/About.css";
+import "./Contact.css";
 import ContactImg from "./ContactImg.svg";
 
 const About = () => {
@@ -15,7 +15,6 @@ const About = () => {
         <div className="contact-header">
           <span>Contact Me</span>
         </div>
-
         <form>
           <input
             type="text"

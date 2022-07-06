@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Trails from "./pages/Trails";
 import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
+import Contact from "../src/components/Contact/Contact";
 import Error from "./pages/Error";
 import Navbarr from "./components/Navbar/Navbarr";
 

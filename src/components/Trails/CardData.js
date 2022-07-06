@@ -89,6 +89,15 @@ const CardData = [
     price: "2522",
     cart: "View More",
   },
+  {
+    id: 11,
+    img: "https://res.cloudinary.com/fushigina-shinobi/image/upload/v1652717968/samples/landscapes/architecture-signs.jpg",
+    place: "Kolakham, Kalimpong",
+    level: "Upcoming",
+    time: "1 Day",
+    price: "2522",
+    cart: "View More",
+  },
 ];
 
 export default CardData;
