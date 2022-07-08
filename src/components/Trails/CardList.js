@@ -1,29 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, createContext, useContext } from "react";
 import Card from "./Card";
 import CardData from "./CardData";
 import FilterSearch from "./FilterSearch";
 import "./CardList.css";
+import Hero from "../Home/Hero";
 
 const AllCategory = [
   ...new Set(CardData.map((curElem) => curElem.level)),
   "All",
 ];
-const CardList = () => {
-  const [items, setItems] = useState(CardData);
+const CardList = ({ trailsData }) => {
+  console.log(trailsData);
+  const [items, setItems] = useState(trailsData);
   const [oldItems, setOldItems] = useState(CardData);
   const [allLevel, setAllLevel] = useState(AllCategory);
   const [searchValue, setSearchValue] = useState("");
   const filterLevels = (category, item) => {
     if (category === "All") {
       setItems(CardData);
-      return;
+    } else {
+      const updateLevels = CardData.filter((curElem) => {
+        return curElem.level === category;
+      });
+      setItems(updateLevels);
     }
-    const updateLevels = CardData.filter((curElem) => {
-      return curElem.level === category;
-    });
-    setItems(updateLevels);
   };
-
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     let newPlace = [];
@@ -36,11 +37,9 @@ const CardList = () => {
     }
     setItems(newPlace);
   };
-
   const handleSearchValueChange = (e) => {
     setSearchValue(e.target.value);
   };
-
   const handleSearchReset = (e) => {
     setSearchValue("");
     setItems(oldItems);
@@ -71,7 +70,6 @@ const CardList = () => {
           <></>
         )}
       </div>
-
       <FilterSearch
         filterLevels={filterLevels}
         allLevel={allLevel}

@@ -8,6 +8,7 @@ import Gallery from "./pages/Gallery";
 import Contact from "../src/components/Contact/Contact";
 import Error from "./pages/Error";
 import Navbarr from "./components/Navbar/Navbarr";
+import { createContext } from "react";
 
 function App() {
   return (
