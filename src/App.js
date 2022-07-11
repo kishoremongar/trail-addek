@@ -6,28 +6,20 @@ import About from "./pages/About";
 import Trails from "./pages/Trails";
 import Gallery from "./pages/Gallery";
 import Contact from "../src/components/Contact/Contact";
-import Error from "./pages/Error";
+import Error from "../src/components/Error/Error";
 import Navbarr from "./components/Navbar/Navbarr";
-import { createContext } from "react";
 
 function App() {
   return (
     <Router>
       <Navbarr />
       <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <Routes>
-        <Route path="/about" element={<About />} />
-      </Routes>
-      <Routes>
-        <Route path="/trails" element={<Trails />} />
-      </Routes>
-      <Routes>
-        <Route path="/gallery" element={<Gallery />} />
-      </Routes>
-      <Routes>
-        <Route path="/contact" element={<Contact />} />
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="trails" element={<Trails />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,36 @@
+.error-page section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+.error-container h1 {
+  font-size: 5rem;
+  font-family: var(--font-family-secondary);
+  color: var(--mainBlack);
+}
+.btnHome {
+  font-family: var(--font-family-secondary);
+  margin: 1.5rem 1rem 1.5rem 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(120, 167, 163);
+  background: rgba(0, 255, 255, 0.093);
+  box-shadow: 0px 1px 2px 0px;
+  color: var(--mainBlack);
+  transition: 0.3s;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.btnHome:hover {
+  color: var(--color-primary);
+  background: rgb(120, 167, 163);
+  cursor: pointer;
+}
