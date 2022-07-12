@@ -7,6 +7,7 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
+  const toggle = () => setShowLinks(!showLinks);
   return (
     <nav className="navbar">
       <div className="nav-center">
@@ -14,11 +15,11 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="logo" className="logo" />
           </Link>
-          <button onClick={() => setShowLinks(!showLinks)}>
+          <button onClick={toggle}>
             <FaBars />
           </button>
         </div>
-        <div className="links-container">
+        <div className="links-container" onClick={toggle}>
           <ul className="nav-links" id={showLinks ? "hidden" : ""}>
             <li>
               <Link to="/">Home</Link>

@@ -35,7 +35,7 @@ const Contact = () => {
       </div>
       <section className="form-right">
         <div className="contact-header">
-          <span>Contact Me</span>
+          <span>Contact Us</span>
         </div>
         <form
           onSubmit={(e) => {
