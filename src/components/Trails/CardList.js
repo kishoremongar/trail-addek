@@ -1,16 +1,16 @@
-import React, { useState, createContext, useContext } from "react";
+import React, { useState } from "react";
 import Card from "./Card";
 import CardData from "./CardData";
 import FilterSearch from "./FilterSearch";
 import "./CardList.css";
-import Hero from "../Home/Hero";
+// import Hero from "../Home/Hero";
 
 const AllCategory = [
   ...new Set(CardData.map((curElem) => curElem.level)),
   "All",
 ];
 const CardList = ({ trailsData }) => {
-  console.log(trailsData);
+  // console.log(trailsData);
   const [items, setItems] = useState(trailsData);
   const [oldItems, setOldItems] = useState(CardData);
   const [allLevel, setAllLevel] = useState(AllCategory);

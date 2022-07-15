@@ -1,12 +1,12 @@
 import React from "react";
-import "../css/About.css";
+import "./About.css";
 import CardList from "../components/Trails/CardList";
 import CardData from "../components/Trails/CardData";
 import { useLocation } from "react-router-dom";
 
 const Trails = () => {
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   const currentData = CardData.filter((curElem) => {
     return curElem.level === location.state;
   });

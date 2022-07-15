@@ -11,13 +11,13 @@ const Hero = ({ upcomingFilter, allLevel, setItems }) => {
         The only escape drug you need from the city...
       </p>
       <div className="btn-center">
+        <button className="btn">Learn more</button>
         <button
           className="btn"
           onClick={() => navigate("/trails", { state: "Upcoming" })}
         >
           Upcoming
         </button>
-        <button className="btn">Learn more</button>
       </div>
     </div>
   );
