@@ -7,7 +7,10 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
-  const toggle = () => setShowLinks(!showLinks);
+  const toggle = (e) => {
+    e.preventDefault();
+    setShowLinks(!showLinks);
+  };
   return (
     <nav className="navbar">
       <div className="nav-center">

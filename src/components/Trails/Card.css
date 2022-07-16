@@ -45,6 +45,9 @@
 .card-info h4 {
   font-weight: 1200;
 }
+.cart a h4 {
+  color: blue !important;
+}
 
 h3,
 h4,

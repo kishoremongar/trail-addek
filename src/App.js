@@ -8,6 +8,7 @@ import Gallery from "./pages/Gallery";
 import Contact from "../src/components/Contact/Contact";
 import Error from "../src/components/Error/Error";
 import Navbarr from "./components/Navbar/Navbarr";
+import Trail from "./components/Trails/Trail";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="trails" element={<Trails />} />
+        <Route path="trail/:trailId" element={<Trail />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<Error />} />

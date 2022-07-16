@@ -7,6 +7,9 @@ const CardData = [
     time: "4 Days",
     price: "3000",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 2,
@@ -16,6 +19,9 @@ const CardData = [
     time: "7 Days",
     price: "5151",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 3,
@@ -25,6 +31,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 4,
@@ -34,6 +43,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 5,
@@ -43,6 +55,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 6,
@@ -52,6 +67,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 7,
@@ -61,6 +79,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 8,
@@ -70,6 +91,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 9,
@@ -79,6 +103,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 10,
@@ -88,6 +115,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
   {
     id: 11,
@@ -97,6 +127,9 @@ const CardData = [
     time: "1 Day",
     price: "2522",
     cart: "View More",
+    description:
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+    cta: "Add To Cart",
   },
 ];
 

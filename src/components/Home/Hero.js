@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { useNavigate } from "react-router-dom";
 
-const Hero = ({ upcomingFilter, allLevel, setItems }) => {
+const Hero = () => {
   let navigate = useNavigate();
   return (
     <div className="btnContainer">

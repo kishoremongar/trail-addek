@@ -1,8 +1,9 @@
-import React from "react";
-import CardData from "./CardData";
+import React, { useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import "./Card.css";
+import CardData from "./CardData";
 
-const Card = ({ cart, img, place, level, time, price }) => {
+const Card = ({ id, cart, img, place, level, time, price }) => {
   return (
     <div className="card-container">
       <div className="card-header">
@@ -22,7 +23,9 @@ const Card = ({ cart, img, place, level, time, price }) => {
           <h4>{price}</h4>
         </div>
         <div className="cart">
-          <h4>{cart}</h4>
+          <Link to={`/trail/${id}`} className="viewMore">
+            <h4>{cart}</h4>
+          </Link>
         </div>
       </div>
     </div>
@@ -30,3 +33,13 @@ const Card = ({ cart, img, place, level, time, price }) => {
 };
 
 export default Card;
+
+// <div className="cart">
+//           {item.map((items, index) => {
+//             <div className="def" key={index}>
+//               <Link to={`/trails/${items.id}`} className="viewMore">
+//                 <h4>{cart}</h4>
+//               </Link>
+//             </div>;
+//           })}
+//         </div>
