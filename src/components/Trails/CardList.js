@@ -88,6 +88,7 @@ const CardList = ({ trailsData }) => {
                 time={CardData.time}
                 price={CardData.price}
                 cart={CardData.cart}
+                id={CardData.id}
               />
             );
           })}
