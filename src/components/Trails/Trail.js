@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 
 const Trail = () => {
   const { trailId } = useParams();
-  console.log("params", useParams());
+  // console.log("params", useParams());
   const trek = CardData.find((item) => String(item.id) === String(trailId));
   return (
     <div className="mainContainer">
