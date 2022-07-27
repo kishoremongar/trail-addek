@@ -48,12 +48,22 @@
     width: 30rem;
   }
   .container {
-    margin: 0rem;
-    margin-top: 5rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-aboutUs {
+    margin: 5rem;
   }
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/
 @media (max-width: 37.5em) {
+  .container {
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+  }
 }
 /*Phone-medium width < 480px, 1rem = 5px*/
 @media (max-width: 30em) {

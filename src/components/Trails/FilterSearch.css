@@ -23,7 +23,10 @@
   font-weight: 900;
   /* transition: var(--mainTransition); */
 }
-
+.bg-salmon {
+  background-color: salmon;
+  color: white;
+}
 .cateAll {
   border: none;
   background: transparent;
@@ -47,4 +50,17 @@
   font-size: 1.2rem;
   height: 4rem;
   text-align: center;
+}
+
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+  .searchBar {
+    max-width: 80%;
+  }
+  .searchBar-container .level {
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }

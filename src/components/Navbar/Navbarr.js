@@ -22,8 +22,12 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        <div className="links-container" onClick={toggle}>
-          <ul className="nav-links" id={showLinks ? "hidden" : ""}>
+        <div className="links-container">
+          <ul
+            className="nav-links"
+            id={showLinks ? "hidden" : ""}
+            onClick={() => (setShowLinks(!showLinks) ? "hidden" : "")}
+          >
             <li>
               <Link to="/">Home</Link>
             </li>

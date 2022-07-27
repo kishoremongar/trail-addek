@@ -8,7 +8,7 @@ const CardData = [
     price: "3000",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -20,7 +20,7 @@ const CardData = [
     price: "5151",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -32,7 +32,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -44,7 +44,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -56,7 +56,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -68,7 +68,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -80,7 +80,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -92,7 +92,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -104,7 +104,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -116,7 +116,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
   {
@@ -128,7 +128,7 @@ const CardData = [
     price: "2522",
     cart: "View More",
     description:
-      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.",
+      "That might've been one of the shortest assignments in the history of Starfleet. The unexpected is our normal routine.Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.",
     cta: "Add To Cart",
   },
 ];

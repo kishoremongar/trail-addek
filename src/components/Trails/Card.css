@@ -103,3 +103,10 @@ p {
 .cart {
   color: blue;
 }
+
+/*Phone-medium width < 480px, 1rem = 5px*/
+@media (max-width: 30em) {
+  .cardLayout > * {
+    grid-template: none;
+  }
+}

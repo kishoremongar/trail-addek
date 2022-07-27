@@ -8,13 +8,14 @@ const Trail = () => {
   const { trailId } = useParams();
   // console.log("params", useParams());
   const trek = CardData.find((item) => String(item.id) === String(trailId));
+  const [items, setItems] = React.useState(trek);
   return (
     <div className="mainContainer">
-      <div className="left-pages page">
-        <Display item={trek} />
+      <div className="left-trail" key={items.id}>
+        <img src={items.img} alt={items.place} className="trail-img" />
       </div>
-      <div className="right-pages page">
-        <h3>Hello{CardData.place}</h3>
+      <div className="right-trail">
+        <Display item={trek} />
       </div>
     </div>
   );

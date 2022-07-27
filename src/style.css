@@ -23,6 +23,10 @@ Variables
   --mainTransition: all 0.3s linear;
   --border-bottom: rgb(156, 177, 255);
 }
+/* * {
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
 /*
 ====== 
 Global Styles 

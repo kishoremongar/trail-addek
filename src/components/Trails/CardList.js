@@ -15,6 +15,7 @@ const CardList = ({ trailsData }) => {
   const [oldItems, setOldItems] = useState(CardData);
   const [allLevel, setAllLevel] = useState(AllCategory);
   const [searchValue, setSearchValue] = useState("");
+
   const filterLevels = (category, item) => {
     if (category === "All") {
       setItems(CardData);

@@ -37,35 +37,8 @@
   height: auto;
 }
 
-/*Big-Desktop width < 1800px, 1rem = 112px*/
-@media (max-width: 112.5em) {
-}
-/*Tablet-Landscape width < 1200px, 1rem = 9px*/
-@media (max-width: 75em) {
-}
-/*Tablet-Port width < 900px, 1rem = 8px*/
-@media (max-width: 56.25em) {
-  .about-img {
-    width: 30rem;
-  }
-  .container {
-    margin: 0rem;
-    margin-top: 5rem;
-  }
-}
-/*Phone-Large width < 600px, 1rem = 6.5px*/
-@media (max-width: 37.5em) {
-}
-/*Phone-medium width < 480px, 1rem = 5px*/
-@media (max-width: 30em) {
-}
-/*Phone-Small width < 390px, 1rem = 4px*/
-@media (max-width: 24.375em) {
-}
-
 .contact-container {
   display: flex;
-  height: 60vh;
   margin-top: 15rem;
 }
 .form-left {
@@ -75,7 +48,7 @@
   flex: 1;
 }
 .main-hero img {
-  transform: scale(2);
+  transform: scale(1.5);
   width: 100%;
 }
 .form-right {
@@ -144,39 +117,54 @@ textarea {
 }
 /*Tablet-Port width < 900px, 1rem = 8px*/
 @media (max-width: 56.25em) {
+  .contact-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    gap: 10rem;
+  }
   .form-left {
     flex: 1.5;
   }
   .main-hero img {
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
-  /* .contact-header:nth-child(1) {
-      top: -10rem;
-      left: -10rem;
-      transform: translate(-10rem, -10rem);
-    } */
 }
 /*Phone-Large width < 600px, 1rem = 6.5px*/
 @media (max-width: 37.5em) {
-  /* .contact-header:nth-child(1) {
-      top: -10rem;
-      left: -15rem;
-      transform: translate(-10rem, -15rem);
-    } */
-  .contact-container {
+  .form-left {
+    flex: 1;
+    margin-bottom: 4rem;
+  }
+  .form-left img {
+    transform: scale(1);
+  }
+  /* .contact-container {
     width: 100vw;
     transform: scale(0.9);
-  }
+  } */
 }
 /*Phone-medium width < 480px, 1rem = 5px*/
 @media (max-width: 30em) {
-  .contact-container {
+  /* .contact-container {
     height: 50vh;
-  }
+  } */
 }
 /*Phone-Small width < 390px, 1rem = 4px*/
 @media (max-width: 24.375em) {
   .contact-container {
-    height: 45vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .form-left {
+    margin-bottom: 0;
+    flex: 0;
+  }
+  .form-left img {
+    transform: scale(1);
+  }
+  .form-right {
+    flex: 0;
   }
 }
