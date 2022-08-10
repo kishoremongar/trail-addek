@@ -33,13 +33,3 @@ const Card = ({ id, cart, img, place, level, time, price }) => {
 };
 
 export default Card;
-
-// <div className="cart">
-//           {item.map((items, index) => {
-//             <div className="def" key={index}>
-//               <Link to={`/trails/${items.id}`} className="viewMore">
-//                 <h4>{cart}</h4>
-//               </Link>
-//             </div>;
-//           })}
-//         </div>

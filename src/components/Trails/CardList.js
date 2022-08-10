@@ -3,7 +3,6 @@ import Card from "./Card";
 import CardData from "./CardData";
 import FilterSearch from "./FilterSearch";
 import "./CardList.css";
-// import Hero from "../Home/Hero";
 
 const AllCategory = [
   ...new Set(CardData.map((curElem) => curElem.level)),
