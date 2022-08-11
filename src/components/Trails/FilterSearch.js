@@ -1,14 +1,15 @@
 import React from "react";
+// import { useState } from "react";
 import "./FilterSearch.css";
 
-const FilterSearch = ({ filterLevels, allLevel }) => {
+const FilterSearch = ({ filterLevels, allLevel, isActive }) => {
   return (
     <div className="searchBar-container">
       <section className="level">
         {allLevel.map((curElem, index) => {
           return (
             <button
-              className="cateAll"
+              className={isActive ? "active" : "cateAll"}
               onClick={() => filterLevels(curElem)}
               key={index}
             >

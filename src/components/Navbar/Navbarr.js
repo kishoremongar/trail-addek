@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "./logo.svg";
 import "./Navbarr.css";
 import { BsPersonCircle, BsCartFill } from "react-icons/bs";
@@ -7,6 +7,10 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
+  let activeStyle = {
+    color: "var(--border-bottom)",
+    borderBottom: "1px solid var(--border-bottom)",
+  };
   const toggle = (e) => {
     e.preventDefault();
     setShowLinks(!showLinks);
@@ -15,9 +19,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/">
+          <NavLink to="/">
             <img src={logo} alt="logo" className="logo" />
-          </Link>
+          </NavLink>
           <button onClick={toggle}>
             <FaBars />
           </button>
@@ -29,19 +33,39 @@ const Navbar = () => {
             onClick={() => (setShowLinks(!showLinks) ? "hidden" : "")}
           >
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink
+                to="/about"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/trails">Trails</Link>
+              <NavLink
+                to="/trails"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Trails
+              </NavLink>
             </li>
             <li>
-              <Link to="/gallery">Gallery</Link>
+              <NavLink
+                to="/gallery"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Gallery
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                to="/contact"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
