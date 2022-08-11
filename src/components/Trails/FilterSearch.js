@@ -9,7 +9,7 @@ const FilterSearch = ({ filterLevels, allLevel, isActive }) => {
         {allLevel.map((curElem, index) => {
           return (
             <button
-              className={isActive ? "active" : "cateAll"}
+              className={isActive ? "activeFilter" : "cateAll"}
               onClick={() => filterLevels(curElem)}
               key={index}
             >

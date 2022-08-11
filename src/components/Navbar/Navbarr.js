@@ -13,7 +13,7 @@ const Navbar = () => {
   };
   const toggle = (e) => {
     e.preventDefault();
-    setShowLinks(!showLinks);
+    setShowLinks((prev) => !prev);
   };
   return (
     <nav className="navbar">
@@ -29,8 +29,8 @@ const Navbar = () => {
         <div className="links-container">
           <ul
             className="nav-links"
-            id={showLinks ? "hidden" : ""}
-            onClick={() => (setShowLinks(!showLinks) ? "hidden" : "")}
+            id={showLinks ? "hidden" : undefined}
+            onClick={() => (setShowLinks((prev) => !prev) ? "hidden" : "")}
           >
             <li>
               <NavLink to="/">Home</NavLink>
