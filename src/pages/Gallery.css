@@ -1,0 +1,13 @@
+.gallery-container {
+  margin: 5rem;
+  display: "block";
+  min-height: "1px";
+  width: "100%";
+  border: "1px solid #ddd";
+  overflow: "auto";
+  font-family: var(--font-family-secondary);
+}
+
+.gallery-container img {
+  object-fit: cover;
+}
