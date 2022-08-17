@@ -5,7 +5,7 @@ import Gallery from "react-grid-gallery";
 
 const About = () => {
   return (
-    <section className="gallery-container">
+    <section className="gallery-container" loading="lazy">
       <Gallery
         images={Images}
         // showCloseButton={false}

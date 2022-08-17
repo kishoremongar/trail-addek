@@ -12,7 +12,12 @@ const Trail = () => {
   return (
     <div className="mainContainer">
       <div className="left-trail" key={items.id}>
-        <img src={items.img} alt={items.place} className="trail-img" />
+        <img
+          src={items.img}
+          alt={items.place}
+          className="trail-img"
+          loading="lazy"
+        />
       </div>
       <div className="right-trail">
         <Display item={trek} />
